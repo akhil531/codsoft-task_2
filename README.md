@@ -10,7 +10,7 @@ This repository contains the completed tasks for my CodSoft internship. Below ar
 This task involves creating a responsive and visually appealing **Landing Page**. The page is designed to showcase modern design principles and user-friendly navigation.
 
 ### 🚀 Demo
-View the live demo of the Landing Page here: [Landing Page Demo]((https://akhil-landingpage.netlify.app/))
+View the live demo of the Landing Page here: https://akhil-landingpage.netlify.app/
 
 ### 📂 Features
 - Responsive design for all screen sizes
