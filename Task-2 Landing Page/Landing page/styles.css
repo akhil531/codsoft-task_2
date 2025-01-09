@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: #000;
+    color: white;
+    height: 500vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Canvas for animations (if any) */
+canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    max-height: 100vh;
+    max-width: 100vw;
+    transform: translate(-50%, -50%);
+}
+
+/* Sticky Navigation Header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+nav .links {
+    display: flex;
+    gap: 1rem; /* Reduced gap between links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem; /* Reduced font size for header links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+/* Main Title */
+h1 {
+    position: fixed;
+    top: 40%; /* Adjusted position to move text downward */
+    width: 100vw;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: clamp(2rem, 10vw, 13.5rem);
+    line-height: 0.9;
+    z-index: 999; /* Ensure it appears above other content */
+}
+
+/* Sub-heading Below Title */
+.sub-heading {
+    position: fixed;
+    top: 50%; /* Adjusted position to move sub-heading downward as well */
+    width: 100vw;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: clamp(1.5rem, 6vw, 8rem);
+    color: #888;
+    z-index: 998;
+}
+
+/* AirPods Image Scrolling Adjustment */
+.landing_container {
+    margin-top: 25rem; /* Creates space for the h1 to appear above the scrolling image */
+    text-align: center;
+}
